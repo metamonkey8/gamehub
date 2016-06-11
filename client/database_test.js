@@ -12,7 +12,7 @@ Users.model = User;
 
 
 
-new User({ username: 'Michael' }).fetch().then(function(found) {
+new User({ username: 'Michael' }).fetch().then(found => {
     if (found) {
    		console.log(found);
     }

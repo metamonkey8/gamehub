@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import FbLogin from '../containers/fb_login';
 // import Login from '../containers/login';
 import Auth0 from './auth0_login';
+import {postProfile} from '../../actions/index.js';
 
 export default class App extends Component {
 

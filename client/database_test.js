@@ -12,17 +12,16 @@ Users.model = User;
 
 
 
-new User({ username: 'Michael' }).fetch().then(found => {
+new User({ username: 'Gina' }).fetch().then(found => {
     if (found) {
    		console.log(found);
     }
     else {
     	console.log("NOT FOUND! ADDED!");
 		let testUser = new User({
-			username: 'Michael',
-			password: 'asdf',
-			fullname: 'Michael Chen',
-			email: 'chen.liu.michael@gmail.com'
+			username: 'Gina',
+			fullname: 'Gina Z',
+			email: 'gina@gmail.com'
 		});
 
 		testUser.save().then(function(newUser) {

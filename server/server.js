@@ -150,7 +150,6 @@ app.post('/get_user_info', function(req, res){
 });
 
 app.post('/get_friend_info', function(req, res){
-  console.log(req.body);
   new User({ email: req.body.friend1 }).fetch().then(found => {
     if (found) {
       new User({ email: req.body.friend2 }).fetch().then(found2 => {
@@ -171,7 +170,6 @@ app.post('/get_friend_info', function(req, res){
 });
 
 app.post('/add_friend', function(req, res) {
-  console.log(req.body);
   new User({ email: req.body.friend1 }).fetch().then(found => {
     if (found) {
       new User({ email: req.body.friend2 }).fetch().then(found2 => {

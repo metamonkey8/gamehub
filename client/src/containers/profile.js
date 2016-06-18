@@ -97,7 +97,7 @@ export class Profile extends Component {
             <div className="profile_pic">
               <img className="img-responsive" src={this.props.profile.pic_path}/>
             </div>
-            <button id="followBtn" onClick = {this.addFriend.bind(this)}> Follow </button>
+            <button className="btn" id="followBtn" onClick = {this.addFriend.bind(this)}> Follow </button>
           </div>
           <div className="row" id="friends-component">
             <h3>Friends</h3>

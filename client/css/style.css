@@ -1,0 +1,289 @@
+body {
+	background-color: #2C2D28;
+	text-align: center;
+  color: #ffffff;
+  padding-top: 65px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+body input {
+  color: #000000;
+}
+
+textarea {
+  color: black;
+}
+
+ul {
+ list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+a.all-friends {
+  color: rgba(91, 175, 222, 0.94);
+}
+
+div.mario {
+  text-align: center;
+  width:      100%;
+  height:     100%;
+  z-index:    -1;
+  top:        0;
+  left:       0;
+  position:   absolute;
+  display: block;
+  background-position: 50% 0;
+  background-image: url('../images/mario.jpg');
+  background-repeat: no-repeat;
+}
+
+.btn {
+  color: #000000;
+  background-color: #e8e8e8;
+}
+
+button.btn.btn-primary {
+  color: #ffffff;
+}
+
+/*------------------------------ Profile Component ------------------------------*/
+
+/** LEFT PROFILE SECTION **/
+div.user-info {
+  text-align: left;
+  padding-left: 40px;
+}
+
+a.all-friends {
+  font-size: 20px;
+}
+
+h4.location {
+  color: #777;
+}
+
+.col-md-4.profile-left {
+  padding: 20px 0px 0px 60px;
+}
+
+.col-md-7.profile-right {
+  padding: 20px 60px 0px 0px;
+}
+
+img.img-responsive.img-rounded {
+	display: block;
+	width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+/** FAVGAMES SECTION **/
+#favGameHeader {
+  text-align: left;
+}
+
+.game-list div.col-md-4 {
+  text-align: left;
+}
+
+.game-list li {
+	cursor: pointer;
+}
+
+/** FRIENDS SECTION **/
+
+.friends-table {
+  width: 200px;
+}
+
+.friends-table td {
+	cursor: pointer;
+}
+
+.friend_pic img {
+  width: 50px;
+  height: 50px;
+}
+
+/** FAVMEDIA SECTION **/
+#mediaHeader {
+  text-align: left;
+}
+
+#favMedia {
+  padding-right: 30px;
+}
+
+#favMediaForm div.input-group {
+  padding-top: 20px;
+}
+
+.allFavMediaBox {
+  width: 660px;
+  height: 320px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+  text-align: left;
+}
+
+/*#mario:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/mario.jpg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  opacity : 0.5;
+  z-index: -1;
+}*/
+
+/*------------------------------ NAVBAR ------------------------------*/
+#navHeader {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 26px;
+  color: #ffffff;
+
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-header {
+  padding-top: 6px;
+	cursor: pointer;
+}
+
+#header {
+	background-color: #C0C0C0;
+	width: 960px;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 40px 0;
+	position: relative;
+}
+
+/** Logo **/
+#logo {
+	display: block;
+	padding: 0 0 35px 40px;
+}
+
+#headerTitle {
+	font-family: 'Syncopate', sans-serif;
+	font-weight: bold;
+	font-size: 46px;
+	color: #ffffff;
+	padding-top: 180px;
+}
+
+#headerSub {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 28px;
+	color: #ffffff;
+}
+
+div#gamehub-logo.col-xs-3 {
+  padding-top: 8px;
+  padding-left: 2em;
+}
+
+/*------------------------------ Logout & Message Buttons Component ------------------------------*/
+div#logout-button.col-xs-3 {
+  padding-top: 8px;
+	padding-right: 3em;
+}
+
+/*------------------------------ Search Bar and Searched List Components ------------------------------*/
+.navbar-form {
+  padding-left: 5em;
+	float: center;
+}
+
+.navbar-form input.form-control {
+  width: 30em;
+  color: #000000;
+}
+
+/*------------------------------ Searched Users List Component ------------------------------*/
+#userList {
+  width: 70%;
+  color: #ffffff;
+  list-style-type: none;
+  padding-left: 280px;
+}
+
+#searchedUsersRow {
+  padding-bottom: 6px;
+}
+
+#searchedUsersRow a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*------------------------------ Creating Profile Component ------------------------------*/
+.createProfileSection form {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+/*--------------------------------- Conversation Container ----------------------------- */
+.conversation {
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 20px;
+  border: 4px solid gray;
+  border-radius: 25px;
+  color: white;
+  background-color: rgba(238, 238, 238, 0.12);
+}
+
+/*------------------------------ Game Page Component ------------------------------*/
+img.games-list-profile-img.img-rounded {
+  height: 100px;
+  width: 100px;
+}
+.games-page-link {
+	cursor:pointer;
+}
+
+.container.games-page {
+  text-align: center;
+}
+
+div.col-md-4.games-page {
+  padding-top: 30px;
+}
+
+/*------------------------------ Message Page Component ------------------------------*/
+.message-friend {
+	cursor: pointer;
+}
+
+table.message-list {
+  text-align: left;
+  width: 210px;
+}
+
+div.row.message-frds-section {
+  text-align: left;
+}
+
+h3.message-headers {
+  color: rgba(91, 175, 222, 0.94);
+}
+
+#messageForm {
+  text-align: right;
+}
